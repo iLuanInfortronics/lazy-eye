@@ -4,8 +4,10 @@
 
 <picture>
   <source media="(prefers-reduced-motion: reduce)" srcset="./assets/lazy-eye-static.png">
-  <img src="./assets/lazy-eye-demo.gif" alt="Exemplo animado: em vez de abrir uma lista, procurar e selecionar a prefeitura a cada uso, o sistema propõe a prefeitura vinculada à conta e mantém a opção de trocar antes de salvar." width="1120">
+  <img src="./assets/lazy-eye-demo.gif" alt="Exemplo ilustrativo: uma tela de configuração cheia de campos e botões é analisada pela Lazy Eye. A skill aponta escolhas repetidas, opções raras e ações concorrentes, apresenta uma proposta para aprovação e só então mostra a tela simplificada, com município da conta, opção de troca e uma ação principal. Termina com o antes e depois lado a lado." width="1200">
 </picture>
+
+*Exemplo ilustrativo de uma configuração de central. A animação mostra o antes, a análise, a proposta para aprovação e o depois.*
 
 Uma tela pode parecer simples e ainda obrigar alguém a procurar um código, repetir uma escolha, consultar o suporte ou descobrir que o botão **Concluído** não concluiu nada. A Lazy Eye percorre a tarefa inteira, encontra esse esforço e propõe uma mudança concreta. Ela mede o caminho até o resultado, não apenas a quantidade de cliques.
 
@@ -20,19 +22,9 @@ Funciona em telas, formulários, configuradores, instaladores, fluxos de CLI e t
 
 A skill **apresenta a sugestão antes de alterar o fluxo** quando a melhoria está fora do pedido já autorizado. Numa auditoria profunda, só pede aprovação de implementação depois de examinar as evidências necessárias. Se faltarem tela, código ou outros dados essenciais, entrega um inventário preliminar e explica a lacuna.
 
-<picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/auditoria-lazy-eye-static.png">
-  <img src="./assets/auditoria-lazy-eye.gif" alt="A auditoria percorre primeiro uso, repetição, erros e suporte; transforma atritos em achados com evidências. Sem cobertura suficiente, entrega diagnóstico preliminar. Com cobertura completa, apresenta pacote ou IDs para aprovação." width="1120" loading="lazy">
-</picture>
-
 ## A escada do esforço poupado
 
 Para cada atrito, ela tenta os degraus nesta ordem. Para no primeiro que resolve a tarefa com segurança; caminhos de exceção podem combinar degraus.
-
-<picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/escada-lazy-eye-static.png">
-  <img src="./assets/escada-lazy-eye.gif" alt="A escada percorre cinco perguntas em ordem: eliminar, resolver pelo contexto, oferecer padrão seguro, adiar e facilitar. A análise para no primeiro degrau que resolve a tarefa com segurança." width="1120" loading="lazy">
-</picture>
 
 | Degrau | Pergunta | Exemplo |
 | --- | --- | --- |
@@ -78,7 +70,7 @@ A seleção automática depende do agente e de quantas skills ele carrega. Menci
 
 - [`SKILL.md`](./SKILL.md): gatilho, escada e limites do uso cotidiano.
 - [`references/auditoria-profunda.md`](./references/auditoria-profunda.md): método de investigação, inventário e aprovação.
-- [`assets/`](./assets/): três animações explicativas e suas versões estáticas para movimento reduzido.
+- [`assets/`](./assets/): animação do antes e depois, com versão estática para movimento reduzido.
 
 ## Licença
 
