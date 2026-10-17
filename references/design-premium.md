@@ -16,3 +16,4 @@ Leia esta referência somente quando a tarefa da Lazy Eye também envolver cria�
 - Defina hierarquia, tipografia, cor, espaçamento e movimento pelo propósito e pelo contexto do produto. “Premium” não significa mais ornamentos, controles ou animações.
 - Confira o caminho antes/depois, incluindo uso recorrente, erro, teclado, tela pequena e movimento reduzido quando aplicável. Compare o trabalho poupado com qualquer esforço novo criado pela solução.
 - Na resposta, una o ganho funcional e o visual em uma proposta coerente. Não apresente sugestões independentes de cada skill como se fossem decisões concorrentes.
+- Mostre a hierarquia a serviço do mapa do trabalho: o dado que a pessoa precisa conferir, a exceção que pode corrigir e a ação que produz o resultado devem ser encontrados nessa ordem. O estado de sucesso precisa confirmar o resultado real; decoração ou animação não podem substituí-lo.

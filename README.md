@@ -4,10 +4,10 @@
 
 <picture>
   <source media="(prefers-reduced-motion: reduce)" srcset="./assets/lazy-eye-static.png">
-  <img src="./assets/lazy-eye-demo.gif" alt="Cenário simulado: uma tela de configuração com escolhas repetidas, opções raras e três botões é auditada pela Lazy Eye. Os achados A1 a A3 são apresentados para aprovação. Após a aprovação, o Impeccable refina a interface, que passa a mostrar o município da conta, opções avançadas sob demanda e uma ação principal. A animação termina com o antes e depois lado a lado." width="1200">
+  <img src="./assets/lazy-eye-demo.gif" alt="Cenário simulado: uma configuração de central exige procurar um código, repetir a prefeitura e escolher entre três botões. A Lazy Eye mapeia esse trabalho, apresenta os achados A1 a A3 e aguarda aprovação. Depois, o Impeccable refina a interface: o município vem da conta, a busca aparece somente para troca autorizada, há uma ação para salvar e a tela confirma o resultado. A animação termina com a comparação antes e depois." width="1200">
 </picture>
 
-*Cenário simulado de configuração de central: auditoria dos atritos, aprovação dos achados, refinamento com Impeccable e comparação final. A tela não é uma captura de produto real.*
+*Cenário simulado, não uma captura da Central CIGO: mapa do trabalho, auditoria, aprovação, refinamento visual, exceção autorizada e resultado confirmado.*
 
 Uma tela pode parecer simples e ainda obrigar alguém a procurar um código, repetir uma escolha, consultar o suporte ou descobrir que o botão **Concluído** não concluiu nada. A Lazy Eye percorre a tarefa inteira, encontra esse esforço e propõe uma mudança concreta. Ela mede o caminho até o resultado, não apenas a quantidade de cliques.
 
@@ -21,6 +21,10 @@ Funciona em telas, formulários, configuradores, instaladores, fluxos de CLI e t
 | Auditar tudo o que pode ser simplificado | Um inventário de achados com evidência, risco, confiança, antes/depois e IDs para aprovar todos ou escolher alguns. |
 
 A skill **apresenta a sugestão antes de alterar o fluxo** quando a melhoria está fora do pedido já autorizado. Numa auditoria profunda, só pede aprovação de implementação depois de examinar as evidências necessárias. Se faltarem tela, código ou outros dados essenciais, entrega um inventário preliminar e explica a lacuna.
+
+### O mapa do trabalho
+
+Antes de desenhar a solução, a Lazy Eye registra o caminho até um resultado verificável: ponto de partida → busca ou decisão → ação → confirmação → resultado. Compara o caminho atual com o proposto, incluindo a exceção e o trabalho que poderia migrar para o suporte. Na animação, isso significa tirar a consulta externa do fluxo comum, manter a troca de município quando autorizada e só declarar o fim depois que o salvamento for confirmado.
 
 ### Quando a tela também precisa de design premium
 

@@ -18,6 +18,8 @@ Use ao planejar ou revisar um fluxo humano, especialmente uma tela que poderia e
 3. Escolha o atrito com maior combinação de frequência, esforço e chance de erro. Fundamente-o no fluxo observado; se faltar um fato decisivo, formule a sugestão como hipótese e diga o que precisa ser conferido.
 4. Percorra a escada abaixo para o atrito encontrado. Separe problemas distintos em vez de empilhar mudanças numa proposta. Compare o trabalho poupado com o custo de aprender, manter e corrigir a solução; confira se o esforço não foi transferido para outro usuário, operador ou suporte. Se o ganho não for claro, não faça sugestão.
 
+Antes de desenhar a solução, escreva o **mapa do trabalho** em uma linha: `ponto de partida → busca ou decisão → ação → confirmação → resultado verificável`. Inclua o caminho de exceção quando ele mudar a recomendação. Compare o mapa atual com o proposto: quais buscas, decisões e retornos à tela desaparecem, e qual trabalho novo surge? Não use contagem de cliques ou uma captura bonita como prova de conclusão.
+
 ## Escada do esforço poupado
 
 Teste os degraus em ordem. Escolha o primeiro que resolve o objetivo com segurança em todos os caminhos relevantes. Se uma exceção ainda exigir ação humana, combine degraus sem devolver o trabalho desnecessário ao fluxo principal.
@@ -39,6 +41,7 @@ Se o trabalho incluir criar, redesenhar ou polir uma interface, leia [design pre
 - Apresente no máximo uma sugestão principal por vez: **atrito observado → mudança concreta → esforço poupado → custo ou limite**. Peça aprovação antes de implementar essa melhoria quando ela não fizer parte do pedido já autorizado. Continue partes independentes enquanto aguarda a resposta.
 - Se outro caminho alcançar melhor o objetivo do usuário com bem menos esforço, pode sugeri-lo. Não substitua silenciosamente a solução que ele pediu.
 - Depois da aprovação, implemente a menor mudança completa, seguindo o padrão do projeto, e verifique o caminho de uso, inclusive erro, teclado e preservação de dados quando aplicável.
+- Faça a pessoa chegar ao resultado verificável. Um botão que apenas fecha a tela ou uma mensagem de sucesso antes da operação terminar não encerra a tarefa.
 - Se a tarefa pedida já resolve o maior atrito, conclua sem acrescentar uma sugestão ornamental. Não repita a mesma proposta a cada etapa ou resposta.
 
 ## Limites
