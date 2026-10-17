@@ -20,9 +20,19 @@ Funciona em telas, formulários, configuradores, instaladores, fluxos de CLI e t
 
 A skill **apresenta a sugestão antes de alterar o fluxo** quando a melhoria está fora do pedido já autorizado. Numa auditoria profunda, só pede aprovação de implementação depois de examinar as evidências necessárias. Se faltarem tela, código ou outros dados essenciais, entrega um inventário preliminar e explica a lacuna.
 
+<picture>
+  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/auditoria-lazy-eye-static.png">
+  <img src="./assets/auditoria-lazy-eye.gif" alt="A auditoria percorre primeiro uso, repetição, erros e suporte; transforma atritos em achados com evidências. Sem cobertura suficiente, entrega diagnóstico preliminar. Com cobertura completa, apresenta pacote ou IDs para aprovação." width="1120" loading="lazy">
+</picture>
+
 ## A escada do esforço poupado
 
 Para cada atrito, ela tenta os degraus nesta ordem. Para no primeiro que resolve a tarefa com segurança; caminhos de exceção podem combinar degraus.
+
+<picture>
+  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/escada-lazy-eye-static.png">
+  <img src="./assets/escada-lazy-eye.gif" alt="A escada percorre cinco perguntas em ordem: eliminar, resolver pelo contexto, oferecer padrão seguro, adiar e facilitar. A análise para no primeiro degrau que resolve a tarefa com segurança." width="1120" loading="lazy">
+</picture>
 
 | Degrau | Pergunta | Exemplo |
 | --- | --- | --- |
@@ -68,7 +78,7 @@ A seleção automática depende do agente e de quantas skills ele carrega. Menci
 
 - [`SKILL.md`](./SKILL.md): gatilho, escada e limites do uso cotidiano.
 - [`references/auditoria-profunda.md`](./references/auditoria-profunda.md): método de investigação, inventário e aprovação.
-- [`assets/`](./assets/): animação do exemplo e versão estática para movimento reduzido.
+- [`assets/`](./assets/): três animações explicativas e suas versões estáticas para movimento reduzido.
 
 ## Licença
 
