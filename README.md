@@ -4,10 +4,10 @@
 
 <picture>
   <source media="(prefers-reduced-motion: reduce)" srcset="./assets/lazy-eye-static.png">
-  <img src="./assets/lazy-eye-demo.gif" alt="Exemplo ilustrativo: uma tela de configuração cheia de campos e botões é analisada pela Lazy Eye. A skill aponta escolhas repetidas, opções raras e ações concorrentes, apresenta uma proposta para aprovação e só então mostra a tela simplificada, com município da conta, opção de troca e uma ação principal. Termina com o antes e depois lado a lado." width="1200">
+  <img src="./assets/lazy-eye-demo.gif" alt="Cenário simulado: uma tela de configuração com escolhas repetidas, opções raras e três botões é auditada pela Lazy Eye. Os achados A1 a A3 são apresentados para aprovação. Após a aprovação, o Impeccable refina a interface, que passa a mostrar o município da conta, opções avançadas sob demanda e uma ação principal. A animação termina com o antes e depois lado a lado." width="1200">
 </picture>
 
-*Exemplo ilustrativo de uma configuração de central. A animação mostra o antes, a análise, a proposta para aprovação e o depois.*
+*Cenário simulado de configuração de central: auditoria dos atritos, aprovação dos achados, refinamento com Impeccable e comparação final. A tela não é uma captura de produto real.*
 
 Uma tela pode parecer simples e ainda obrigar alguém a procurar um código, repetir uma escolha, consultar o suporte ou descobrir que o botão **Concluído** não concluiu nada. A Lazy Eye percorre a tarefa inteira, encontra esse esforço e propõe uma mudança concreta. Ela mede o caminho até o resultado, não apenas a quantidade de cliques.
 
