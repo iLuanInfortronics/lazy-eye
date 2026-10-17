@@ -1,6 +1,6 @@
 ---
 name: lazy-eye
-description: Use ao criar ou auditar telas, formulários, configuradores, instaladores e fluxos de CLI para reduzir etapas, escolhas, consultas externas e retrabalho do usuário; inclui auditoria profunda de simplificações, mesmo sem interface visual.
+description: Use ao criar ou auditar telas, formulários, configuradores, instaladores e fluxos de CLI para reduzir etapas, escolhas, consultas externas e retrabalho; inclui auditoria profunda e, em interfaces, composição opcional com skills de design premium.
 ---
 
 # Lazy Eye
@@ -29,6 +29,10 @@ Teste os degraus em ordem. Escolha o primeiro que resolve o objetivo com seguran
 5. **Facilitar o inevitável:** se a pessoa ainda precisar agir, torne a entrada ou escolha mais rápida de localizar, executar e corrigir. Escolha o controle pelo volume e contexto, não por moda visual.
 
 Em todos os degraus, preserve validação, feedback, recuperação, acessibilidade e controle sobre consequências. Uma melhoria parcial pode não justificar a complexidade que acrescenta.
+
+## Quando também pedirem design premium
+
+Se o trabalho incluir criar, redesenhar ou polir uma interface, leia [design premium](references/design-premium.md) para combinar a simplificação com direção visual e acabamento. A Lazy Eye continua responsável pelo diagnóstico do esforço e pela sugestão antes de mudanças fora do pedido autorizado. Skills de design disponíveis são colaboradoras condicionais, nunca pré-requisito para a análise nem motivo para ampliar o escopo. Em instaladores e fluxos sem interface visual, siga o método normal.
 
 ## Como agir no uso comum
 

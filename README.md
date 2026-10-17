@@ -22,6 +22,18 @@ Funciona em telas, formulários, configuradores, instaladores, fluxos de CLI e t
 
 A skill **apresenta a sugestão antes de alterar o fluxo** quando a melhoria está fora do pedido já autorizado. Numa auditoria profunda, só pede aprovação de implementação depois de examinar as evidências necessárias. Se faltarem tela, código ou outros dados essenciais, entrega um inventário preliminar e explica a lacuna.
 
+### Quando a tela também precisa de design premium
+
+A Lazy Eye decide **o que simplificar**. Se a tarefa incluir criação ou redesign de UI, ela pode combinar esse diagnóstico com o `impeccable` para estruturar, criticar ou polir a interface. Skills de direção visual, movimento e acessibilidade entram somente quando resolvem uma lacuna específica. O resultado é uma única proposta de fluxo e visual, mantendo identidade, regras e aprovação; nenhuma dessas skills é obrigatória para usar a Lazy Eye.
+
+| Papel | Skill, quando disponível |
+| --- | --- |
+| Encontrar e reduzir o trabalho da pessoa | `lazy-eye` |
+| Estruturar, simplificar e polir a interface | `impeccable` |
+| Definir uma direção visual própria, se faltar | `design-taste-frontend` |
+| Refinar movimento com propósito, se houver | `emil-design-eng` ou `animate` |
+| Conferir uma questão específica de acesso | `accessibility` |
+
 ## A escada do esforço poupado
 
 Para cada atrito, ela tenta os degraus nesta ordem. Para no primeiro que resolve a tarefa com segurança; caminhos de exceção podem combinar degraus.
@@ -70,6 +82,7 @@ A seleção automática depende do agente e de quantas skills ele carrega. Menci
 
 - [`SKILL.md`](./SKILL.md): gatilho, escada e limites do uso cotidiano.
 - [`references/auditoria-profunda.md`](./references/auditoria-profunda.md): método de investigação, inventário e aprovação.
+- [`references/design-premium.md`](./references/design-premium.md): composição opcional com skills de design para interfaces.
 - [`assets/`](./assets/): animação do antes e depois, com versão estática para movimento reduzido.
 
 ## Licença
