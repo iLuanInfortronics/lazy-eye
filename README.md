@@ -17,10 +17,10 @@ Funciona em telas, formulários, configuradores, instaladores, fluxos de CLI e t
 
 <picture>
   <source media="(prefers-reduced-motion: reduce)" srcset="./assets/lazy-eye-before-after-static.png">
-  <img src="./assets/lazy-eye-before-after.gif" alt="Exemplo ilustrativo: antes, uma configuração pede prefeitura e código, expõe opções raras e oferece três botões. Após a proposta da Lazy Eye ser aprovada, a tela usa o município da conta com troca acessível, guarda opções avançadas, oferece uma ação para salvar e confirma o resultado. A imagem estática compara os dois estados." width="1200">
+  <img src="./assets/lazy-eye-before-after.gif" alt="Exemplo ilustrativo: antes, uma configuração pede prefeitura e código, expõe opções raras e oferece três botões. Após a proposta da Lazy Eye ser aprovada, a tela usa o município da conta com troca acessível, guarda opções avançadas, oferece uma ação para salvar e confirma o resultado. A animação termina com as duas telas lado a lado." width="1200">
 </picture>
 
-*Exemplo fictício de uma proposta aprovada. A animação mostra a mudança na tela; o diagrama acima explica o método.*
+*Exemplo fictício de uma proposta aprovada. A animação termina com o antes e o depois lado a lado; o diagrama acima explica o método.*
 
 ## Dois modos de trabalho
 
