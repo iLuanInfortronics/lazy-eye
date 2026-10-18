@@ -1,6 +1,6 @@
 # Lazy Eye
 
-**Uma skill para encontrar o trabalho que uma interface deixa para a pessoa.**
+**Uma skill que olha a tela pela pessoa que só quer terminar a tarefa.**
 
 <picture>
   <source media="(prefers-reduced-motion: reduce)" srcset="./assets/lazy-eye-static.png">
@@ -9,9 +9,18 @@
 
 *Uma explicação visual do método da skill. A versão estática reúne as cinco etapas para quem prefere menos movimento.*
 
-Uma tela pode parecer simples e ainda obrigar alguém a procurar um código, repetir uma escolha, consultar o suporte ou descobrir que o botão **Concluído** não concluiu nada. A Lazy Eye percorre a tarefa inteira, encontra esse esforço e propõe uma mudança concreta. Ela mede o caminho até o resultado, não apenas a quantidade de cliques.
+Uma tela pode parecer simples e ainda obrigar alguém a procurar um código, repetir uma escolha, consultar o suporte ou descobrir que o botão **Concluído** não concluiu nada. A Lazy Eye olha esse caminho pela pessoa que não conhece o sistema e não quer pensar além do necessário. Ela procura dados que podem vir preenchidos, escolhas mais claras e uma ação final que realmente conclua a tarefa.
 
 Funciona em telas, formulários, configuradores, instaladores, fluxos de CLI e tarefas recorrentes. É uma [Agent Skill](https://agentskills.io/) escrita em português.
+
+## Antes e depois de uma tela
+
+<picture>
+  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/lazy-eye-before-after-static.png">
+  <img src="./assets/lazy-eye-before-after.gif" alt="Exemplo ilustrativo: antes, uma configuração pede prefeitura e código, expõe opções raras e oferece três botões. Após a proposta da Lazy Eye ser aprovada, a tela usa o município da conta com troca acessível, guarda opções avançadas, oferece uma ação para salvar e confirma o resultado. A imagem estática compara os dois estados." width="1200">
+</picture>
+
+*Exemplo fictício de uma proposta aprovada. A animação mostra a mudança na tela; o diagrama acima explica o método.*
 
 ## Dois modos de trabalho
 
@@ -89,7 +98,7 @@ A seleção automática depende do agente e de quantas skills ele carrega. Menci
 - [`SKILL.md`](./SKILL.md): gatilho, escada e limites do uso cotidiano.
 - [`references/auditoria-profunda.md`](./references/auditoria-profunda.md): método de investigação, inventário e aprovação.
 - [`references/design-premium.md`](./references/design-premium.md): composição opcional com skills de design para interfaces.
-- [`assets/`](./assets/): animação explicativa do método, com resumo estático para movimento reduzido.
+- [`assets/`](./assets/): animação do método e exemplo de antes/depois, ambos com alternativa estática para movimento reduzido.
 
 ## Licença
 

@@ -1,11 +1,13 @@
 ---
 name: lazy-eye
-description: Use ao criar ou auditar telas, formulários, configuradores, instaladores e fluxos de CLI para reduzir etapas, escolhas, consultas externas e retrabalho; em telas, confere simetria e alinhamento. Inclui auditoria profunda e composição opcional com skills de design premium.
+description: Use ao criar ou auditar telas, formulários, configuradores, instaladores e fluxos de CLI para reduzir o esforço de entender, pensar, preencher e concluir; em telas, confere simetria e alinhamento. Inclui auditoria profunda e composição opcional com skills de design premium.
 ---
 
 # Lazy Eye
 
 Enxergue o trabalho que a solução deixará para a pessoa. O objetivo é reduzir o esforço total para chegar ao resultado, incluindo aprender, localizar informações, executar, conferir e corrigir. Numa tela, design e função formam um único fluxo: mudar só a aparência não resolve uma escolha difícil, e adicionar um recurso não resolve uma hierarquia confusa. Menos cliques, por si só, não é melhoria.
+
+Use o **olhar preguiçoso** como teste de usabilidade: uma pessoa sem conhecimento prévio deve conseguir reconhecer o próximo passo, aproveitar dados que o sistema já conhece, escolher entre opções claras e perceber que terminou, sem pesquisar códigos nem interpretar jargão. Isso avalia o esforço imposto pelo produto, não a capacidade da pessoa. Prefira preenchimento confiável e escolhas guiadas à digitação e às decisões desnecessárias; mantenha correção, confirmação e consequências sob controle dela.
 
 ## Quando aplicar
 
@@ -14,7 +16,7 @@ Use ao planejar ou revisar um fluxo humano, especialmente uma tela que poderia e
 ## Como encontrar o atrito
 
 1. Identifique quem fará a tarefa, o resultado esperado e se o uso será único ou repetido. Se o fluxo já existir, examine-o; num fluxo novo, use apenas os requisitos conhecidos e marque as hipóteses.
-2. Percorra mentalmente a primeira execução, uma repetição e a ação seguinte à conclusão. Numa tela, examine juntos o que aparece, a ordem das informações, os controles e o que acontece ao usá-los. Localize onde a pessoa precisará adivinhar, informar algo que o sistema já sabe, procurar fora do fluxo, repetir trabalho, esperar sem orientação ou recomeçar após um erro.
+2. Percorra mentalmente a primeira execução, uma repetição e a ação seguinte à conclusão. Numa tela, examine juntos o que aparece, a ordem das informações, os controles e o que acontece ao usá-los. Verifique se alguém sem conhecer o sistema entende o próximo passo sem ajuda. Localize onde a pessoa precisará adivinhar, digitar em vez de aproveitar dados ou opções confiáveis, procurar fora do fluxo, repetir trabalho, esperar sem orientação ou recomeçar após um erro.
 3. Escolha o atrito com maior combinação de frequência, esforço e chance de erro. Fundamente-o no fluxo observado; se faltar um fato decisivo, formule a sugestão como hipótese e diga o que precisa ser conferido.
 4. Percorra a escada abaixo para o atrito encontrado. Separe problemas distintos em vez de empilhar mudanças numa proposta. Compare o trabalho poupado com o custo de aprender, manter e corrigir a solução; confira se o esforço não foi transferido para outro usuário, operador ou suporte. Se o ganho não for claro, não faça sugestão.
 
