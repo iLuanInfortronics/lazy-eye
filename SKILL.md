@@ -1,6 +1,6 @@
 ---
 name: lazy-eye
-description: Use ao criar ou auditar telas, formulários, configuradores, instaladores e fluxos de CLI para reduzir etapas, escolhas, consultas externas e retrabalho; inclui auditoria profunda e, em interfaces, composição opcional com skills de design premium.
+description: Use ao criar ou auditar telas, formulários, configuradores, instaladores e fluxos de CLI para reduzir etapas, escolhas, consultas externas e retrabalho; em telas, confere simetria e alinhamento. Inclui auditoria profunda e composição opcional com skills de design premium.
 ---
 
 # Lazy Eye
@@ -19,6 +19,8 @@ Use ao planejar ou revisar um fluxo humano, especialmente uma tela que poderia e
 4. Percorra a escada abaixo para o atrito encontrado. Separe problemas distintos em vez de empilhar mudanças numa proposta. Compare o trabalho poupado com o custo de aprender, manter e corrigir a solução; confira se o esforço não foi transferido para outro usuário, operador ou suporte. Se o ganho não for claro, não faça sugestão.
 
 Antes de desenhar a solução, escreva o **mapa do trabalho** em uma linha: `ponto de partida → busca ou decisão → ação → confirmação → resultado verificável`. Inclua o caminho de exceção quando ele mudar a recomendação. Compare o mapa atual com o proposto: quais buscas, decisões e retornos à tela desaparecem, e qual trabalho novo surge? Não use contagem de cliques ou uma captura bonita como prova de conclusão.
+
+Em telas, confira a simetria **na renderização**, incluindo os estados e tamanhos de tela relevantes: margens externas, eixos de alinhamento, larguras de elementos equivalentes, espaçamentos e alinhamento entre rótulos e controles. Aponte desvios acidentais que prejudiquem leitura ou previsibilidade; preserve assimetrias intencionais que indiquem hierarquia ou diferenças de função. Não sugira centralizar tudo apenas por estética.
 
 ## Escada do esforço poupado
 

@@ -26,6 +26,8 @@ A skill **apresenta a sugestão antes de alterar o fluxo** quando a melhoria est
 
 Antes de desenhar a solução, a Lazy Eye registra o caminho até um resultado verificável: ponto de partida → busca ou decisão → ação → confirmação → resultado. Compara o caminho atual com o proposto, incluindo a exceção e o trabalho que poderia migrar para o suporte. Na animação, isso significa tirar a consulta externa do fluxo comum, manter a troca de município quando autorizada e só declarar o fim depois que o salvamento for confirmado.
 
+Em telas, ela também confere a simetria da interface renderizada: margens, alinhamentos, larguras de elementos equivalentes e ritmo entre espaços. Corrige desvios acidentais sem apagar uma assimetria que ajuda a entender a hierarquia.
+
 ### Quando a tela também precisa de design premium
 
 A Lazy Eye decide **o que simplificar**. Se a tarefa incluir criação ou redesign de UI, ela pode combinar esse diagnóstico com o `impeccable` para estruturar, criticar ou polir a interface. Skills de direção visual, movimento e acessibilidade entram somente quando resolvem uma lacuna específica. O resultado é uma única proposta de fluxo e visual, mantendo identidade, regras e aprovação; nenhuma dessas skills é obrigatória para usar a Lazy Eye.
