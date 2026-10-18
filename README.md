@@ -4,7 +4,7 @@
 
 <picture>
   <source media="(prefers-reduced-motion: reduce)" srcset="./assets/lazy-eye-static.png">
-  <img src="./assets/lazy-eye-demo.gif" alt="Diagrama animado em cinco etapas: a Lazy Eye percorre a tarefa inteira, identifica esforço oculto, testa os degraus de simplificação, apresenta a proposta para aprovação e confere o resultado. A versão estática resume as cinco etapas." width="1200">
+  <img src="./assets/lazy-eye-demo-v2.gif" alt="Diagrama animado em cinco etapas: a Lazy Eye percorre a tarefa inteira, identifica esforço oculto, testa os degraus de simplificação, apresenta a proposta para aprovação e confere o resultado. A versão estática resume as cinco etapas." width="1200">
 </picture>
 
 *Uma explicação visual do método da skill. A versão estática reúne as cinco etapas para quem prefere menos movimento.*
