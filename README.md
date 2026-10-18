@@ -4,10 +4,10 @@
 
 <picture>
   <source media="(prefers-reduced-motion: reduce)" srcset="./assets/lazy-eye-static.png">
-  <img src="./assets/lazy-eye-demo.gif" alt="Cenário simulado: uma configuração de central exige procurar um código, repetir a prefeitura e escolher entre três botões. A Lazy Eye mapeia esse trabalho, apresenta os achados A1 a A3 e aguarda aprovação. Depois, o Impeccable refina a interface: o município vem da conta, a busca aparece somente para troca autorizada, há uma ação para salvar e a tela confirma o resultado. A animação termina com a comparação antes e depois." width="1200">
+  <img src="./assets/lazy-eye-demo.gif" alt="Diagrama animado em cinco etapas: a Lazy Eye percorre a tarefa inteira, identifica esforço oculto, testa os degraus de simplificação, apresenta a proposta para aprovação e confere o resultado. A versão estática resume as cinco etapas." width="1200">
 </picture>
 
-*Cenário simulado, não uma captura da Central CIGO: mapa do trabalho, auditoria, aprovação, refinamento visual, exceção autorizada e resultado confirmado.*
+*Uma explicação visual do método da skill. A versão estática reúne as cinco etapas para quem prefere menos movimento.*
 
 Uma tela pode parecer simples e ainda obrigar alguém a procurar um código, repetir uma escolha, consultar o suporte ou descobrir que o botão **Concluído** não concluiu nada. A Lazy Eye percorre a tarefa inteira, encontra esse esforço e propõe uma mudança concreta. Ela mede o caminho até o resultado, não apenas a quantidade de cliques.
 
@@ -24,7 +24,7 @@ A skill **apresenta a sugestão antes de alterar o fluxo** quando a melhoria est
 
 ### O mapa do trabalho
 
-Antes de desenhar a solução, a Lazy Eye registra o caminho até um resultado verificável: ponto de partida → busca ou decisão → ação → confirmação → resultado. Compara o caminho atual com o proposto, incluindo a exceção e o trabalho que poderia migrar para o suporte. Na animação, isso significa tirar a consulta externa do fluxo comum, manter a troca de município quando autorizada e só declarar o fim depois que o salvamento for confirmado.
+Antes de desenhar a solução, a Lazy Eye registra o caminho até um resultado verificável: ponto de partida → busca ou decisão → ação → confirmação → resultado. Compara o caminho atual com o proposto, incluindo a exceção e o trabalho que poderia migrar para o suporte. A animação mostra esse raciocínio em cinco etapas: investigar, encontrar, simplificar, aprovar e conferir.
 
 Em telas, ela também confere a simetria da interface renderizada: margens, alinhamentos, larguras de elementos equivalentes e ritmo entre espaços. Corrige desvios acidentais sem apagar uma assimetria que ajuda a entender a hierarquia.
 
@@ -89,7 +89,7 @@ A seleção automática depende do agente e de quantas skills ele carrega. Menci
 - [`SKILL.md`](./SKILL.md): gatilho, escada e limites do uso cotidiano.
 - [`references/auditoria-profunda.md`](./references/auditoria-profunda.md): método de investigação, inventário e aprovação.
 - [`references/design-premium.md`](./references/design-premium.md): composição opcional com skills de design para interfaces.
-- [`assets/`](./assets/): animação do antes e depois, com versão estática para movimento reduzido.
+- [`assets/`](./assets/): animação explicativa do método, com resumo estático para movimento reduzido.
 
 ## Licença
 
